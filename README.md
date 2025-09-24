@@ -57,3 +57,4 @@ To run BCRL (eye+robot) training, run `torchrun --nproc_per_node <gpu> scripts/t
 
 # Release TODOs
 - [ ] Publish hardware CAD and part list
+- [ ] Write instructions for collecting your own 360 data (UR5 specific)
