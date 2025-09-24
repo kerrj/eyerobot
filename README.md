@@ -6,7 +6,7 @@ It supports training and robot inference (only implemented for a UR5 setup), or 
 # Dependencies
 
 ```bash
-git clone --recurse-submodules git@github.com:kerrj/eyeball.git
+git clone --recurse-submodules git@github.com:kerrj/eyerobot.git
 git submodule update --init --recursive
 conda create -n eyeball python=3.10 -y
 conda activate eyeball
