@@ -19,7 +19,8 @@ pip install viser[examples]
 ```
 
 ## Data
-Data 
+Data is hosted [here](https://drive.google.com/file/d/1v-yklVlefulhh6RwK6EJesS4-lbGukgf/view?usp=sharing). Download it as `./data` in this repository.
+
 To visualize a 360 video, you can run
 
 ```bash
