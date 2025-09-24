@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eye"
+version = "0.1.0"
+authors = [
+  { name="Justin Kerr", email="your.email@example.com" },
+]
+description = "Code release for EyeRobot"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "av",
+    "einops",
+    "h5py",
+    "matplotlib>=3.4.0", 
+    "numpy>=1.21.0",
+    "open-clip-torch",
+    "opencv-python>=4.5.0",
+    "pandas",
+    "pyarrow",
+    "pyserial",
+    "transformers",
+    "viser",
+    "yt-dlp",
+    "pynput>=1.7.6",
+    "tensorboard",
+    "wandb",
+    "dm-control",
+    "moviepy" 
+]
+
+[tool.setuptools]
+packages = ["eye"]

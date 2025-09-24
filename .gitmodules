@@ -1,0 +1,9 @@
+[submodule "dependencies/gello_software"]
+	path = dependencies/gello_software
+	url = https://github.com/kushtimusPrime/gello_software
+[submodule "dependencies/insta360/pybind11"]
+	path = dependencies/insta360/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "dependencies/pyroki"]
+	path = dependencies/pyroki
+	url = https://github.com/chungmin99/pyroki
